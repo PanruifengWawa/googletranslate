@@ -148,7 +148,9 @@ private static String getTK(String text) {
 }
 ```
 
- - 3. 拼装api接口，并调用。[example](https://github.com/PanruifengWawa/googletranslate)如下
+ - 3. 拼装api接口，并调用。
+
+ - 4. [example](https://github.com/PanruifengWawa/googletranslate)如下
  
 ``` java
 String result1 = Translate.translate("傻逼");
