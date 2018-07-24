@@ -56,7 +56,7 @@ var tk =  function (a,TKK) {
 
  ``` javascript
 //接口，tk为ticket，q为文本，sl为翻译源语言，hl为翻译目标语言，其他参数我没比较
-https://translate.google.cn/translate_a/single?client=t&sl=zh-CN&tl=zh-CN&hl=zh-CN&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&ssel=0&tsel=3&kc=0&tk=327521.164273&q=aaa
+https://translate.google.cn/translate_a/single?client=t&sl=zh-CN&tl=zh-CN&hl=zh-CN&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&ssel=0&tsel=3&kc=0&tk=327521.164273&q=傻逼
 
 //返回结果
 [
