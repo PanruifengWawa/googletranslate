@@ -23,7 +23,7 @@ print translator.translate('今天天气不错', dest='ko').text
 首先说明一下，谷歌翻译的界面是如何调用它自己的接口的
 
  - 1. 访问https://translate.google.cn/ ，页面中包含一个叫做TKK的参数，如图
-![](-images/TKK.jpg)
+![](/images/TKK.jpg)
  - 2. 这个TKK与需要被翻译的文本生成一张ticket(tk)，生成方式如下
 
  ``` javascript
