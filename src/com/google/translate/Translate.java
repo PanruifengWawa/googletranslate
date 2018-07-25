@@ -3,6 +3,7 @@ package com.google.translate;
 import java.util.ArrayList;
 import java.util.List;
 import java.net.URLEncoder;
+import java.io.UnsupportedEncodingException;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
