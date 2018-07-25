@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/PanruifengWawa/googletranslate.svg?branch=master)](https://travis-ci.org/PanruifengWawa/googletranslate)
 ## 说明
 通过调用谷歌翻译界面的接口，实现翻译接口的匿名调用。
 python版本的已经有人写好了
