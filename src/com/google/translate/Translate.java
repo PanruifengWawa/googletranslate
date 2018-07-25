@@ -2,6 +2,7 @@ package com.google.translate;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.net.URLEncoder;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
@@ -31,6 +32,13 @@ public class Translate {
 		setTKK();
 		
 		String tk = getTK(text);
+		
+		try {
+			text = URLEncoder.encode(text,"utf-8");
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+		
 		String apiUrl = translateAPI + "&sl=" + sl + "&hl=" + hl + "&q=" + text + "&tk=" + tk;
 		String translatedText = HttpUtil.sendGet(apiUrl);
 		return translatedText;
