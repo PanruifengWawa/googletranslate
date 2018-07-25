@@ -198,7 +198,7 @@ System.out.println(result2);
 ]
 ```
 
-
-
+## license
+[license](/LICENSE)
 
 
